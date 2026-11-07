@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: muraligorantla/village
+          image: muraligorantla/k8s
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
