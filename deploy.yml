@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: muraligorantla/pubg
+          image: muraligorantla/village
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
