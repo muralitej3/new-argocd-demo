@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: muraligorantla/matrix
+          image: muraligorantla/swiggy
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
